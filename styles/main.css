@@ -1,0 +1,47 @@
+.root {
+    background: linear-gradient(90deg, #000 30%, rgba(0, 0, 0, 0));
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+img {
+    width: 80%;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #ea5917;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+a:hover {
+    background-color: #ea5917;
+}
